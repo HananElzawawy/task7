@@ -1,0 +1,11 @@
+<!--<app-child-one [item]="mydatatotarnsfer" (itemevent) ="addItem($event)"> </app-child-one>
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+  </ul>--><div class="container">
+    <h3> Employee</h3>
+    <div class="row">
+
+      <div class="col-lg-6"><app-firstsibling (empltrans)="recivedata($event)"  ></app-firstsibling> </div>
+          <div class="col-lg-6"> <app-secondsibiling [empoyee]="empyeeparent"  ></app-secondsibiling> </div>
+          </div>
+</div>
